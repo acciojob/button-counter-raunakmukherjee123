@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const[n,setN]=useState(0);
   const onAdd=()=>{
-    useState[n+1];
+    setN(n+1);
   }
   return (
     <div>
